@@ -106,7 +106,7 @@ for chrom in chromosomes:
         print(f"{chrom}: {count}개의 중요한 변이 발견")
 
     except Exception as e:
-        print(f"❌ {chrom} 처리 중 오류 발생: {e}")
+        print(f"{chrom} 처리 중 오류 발생: {e}")
         summary.append({'Chromosome': chrom, 'ImportantVariants': 0})
 
 # 결과 요약
